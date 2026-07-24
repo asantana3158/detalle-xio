@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const giftData = [
         { img: 'foto2.jpg', msg: 'Eres la persona más especial en mi vida ✨' },
-        { img: 'foto1.jpg', msg: 'Tu sonrisa ilumina mi mundo ✨' },
+        { img: 'foto1.jpg', msg: 'ADORO TUS LOCURAS CARIÑO ✨' },
         { img: 'foto3.jpg', msg: 'Nunca olvides que hay una personita pensando solo en ti👻' }
     ];
 
