@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz 16° Cumpleaños Sara!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Música de fondo -->
+    <audio id="bg-music" loop>
+        <source src="cancion.mp3" type="audio/mpeg">
+    </audio>
+    <div class="music-btn" id="music-btn">🎵 🔊</div>
+
+    <!-- Sobres elegantes -->
+    <div class="envelope left" id="left-envelope">
+        <div class="envelope-front">
+            <div class="stamp">💌</div>
+            <div class="shine"></div>
+        </div>
+
+        <!-- Carta pantalla completa -->
+        <div class="letter fullscreen-letter">
+            <div class="letter-inner">
+                <h3>Para mi princesa Sara...</h3>
+                <div class="letter-content">
+                    <p>En este día especial quiero recordarte lo increíble que eres. Tu sonrisa ilumina mis días y tu corazón es mi mayor tesoro.</p>
+                    <p>Cada momento a tu lado es un regalo que atesoro profundamente. Hoy celebramos no solo tu cumpleaños, sino la maravillosa persona que eres.</p>
+                </div>
+                <div class="seal">💚</div>
+                <button class="close-letter">Cerrar ✖</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="envelope right" id="right-envelope">
+        <div class="envelope-front">
+            <div class="stamp">🎀</div>
+            <div class="shine"></div>
+        </div>
+
+        <!-- Carta pantalla completa -->
+        <div class="letter fullscreen-letter">
+            <div class="letter-inner">
+                <h3>Mis deseos para ti</h3>
+                <div class="letter-content">
+                    <p>Que este año esté lleno de alegrías, amor y sueños cumplidos. Eres la persona más especial en mi vida.</p>
+                    <p>Deseo que cada día te traiga nuevas razones para sonreír y que todos tus proyectos se hagan realidad. ¡Te amo con todo mi corazón!</p>
+                </div>
+                <div class="seal">💚</div>
+                <button class="close-letter">Cerrar ✖</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <header>
+            <h1>Para Mi Chica Sara</h1>
+            <h2>¡Feliz 17° Cumpleaños!</h2>
+        </header>
+
+        <main>
+            <div class="gift-box">
+                <p>¡Abre tus regalos especiales!</p>
+                <div class="gifts">
+                    <div class="gift" data-gift="1">🎁</div>
+                    <div class="gift" data-gift="2">🎁</div>
+                    <div class="gift" data-gift="3">🎁</div>
+                </div>
+            </div>
+
+            <div class="effects-panel">
+                <h3>Efectos mágicos:</h3>
+                <select id="effects">
+                    <option value="hearts">Lluvia de corazones</option>
+                    <option value="confetti">Confetti verde</option>
+                    <option value="stars">Estrellas brillantes</option>
+                </select>
+                <button id="play-effect">¡Activar magia!</button>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal para fotos -->
+    <div class="photo-modal" id="photo-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modal-photo" src="" alt="Foto de Sara">
+            <p id="modal-message"></p>
+        </div>
+    </div>
+
+    <!-- Canvas para efectos -->
+    <canvas id="effects-canvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
