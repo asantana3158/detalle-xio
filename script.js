@@ -73,9 +73,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const closeModal = document.querySelector('.close');
     
     const giftData = [
-        { img: 'foto2.jpg', msg: 'Eres la persona más especial en mi vida ✨' },
-        { img: 'foto1.jpg', msg: 'ADORO TUS LOCURAS CARIÑO ✨' },
-        { img: 'foto3.jpg', msg: 'Nunca olvides que hay una personita pensando solo en ti👻' }
+        { img: 'foto2.jpeg', msg: 'Eres la persona más especial en mi vida ✨' },
+        { img: 'foto1.jpeg', msg: 'ADORO TUS LOCURAS CARIÑO ✨' },
+        { img: 'foto3.jpeg', msg: 'Nunca olvides que hay una personita pensando solo en ti👻' }
     ];
 
     gifts.forEach((gift, index) => {
