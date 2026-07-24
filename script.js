@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const giftData = [
         { img: 'foto2.jpg', msg: 'Eres la persona más especial en mi vida 💚' },
         { img: 'foto1.jpg', msg: 'Tu sonrisa ilumina mi mundo 🌟' },
-        { img: 'foto3.jpg', msg: 'Feliz 17 años, mi amor 🎉' }
+        { img: 'foto3.jpg', msg: 'Nunca olvides que hay una personita pensando solo en ti👻' }
     ];
 
     gifts.forEach((gift, index) => {
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
             modalImg.alt = `Foto de Sara ${index + 1}`;
             modalMsg.textContent = giftData[index].msg;
             modal.style.display = 'flex';
-            this.textContent = ['💝', '🎂', '🎈'][index];
+            this.textContent = ['👻', '👻', '👻'][index]; 
             this.style.transform = 'scale(1.2)';
             setTimeout(() => this.style.transform = 'scale(1)', 300);
         });
